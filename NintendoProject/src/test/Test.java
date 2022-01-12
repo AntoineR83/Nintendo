@@ -9,8 +9,8 @@ import model.Jeu;
 public class Test {
 
 	public static void main(String[] args) {
-		Console c1 = new Console("Megadrive");
-		Console c2 = new Console("NES");
+		Console c1 = new Console("Megadrive", 45.99,"1990-01-01");
+		Console c2 = new Console("NES",50.90, "1970-01-01");
 		
 		Jeu j1 = new Jeu("Sonic", c1);
 		Jeu j2 = new Jeu("Aladdin", c1);
